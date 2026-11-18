@@ -1,0 +1,5 @@
+def sum(x,y):
+    return x + y
+
+def es_mayor_que(numero_1, numero_2):
+    return numero_1 > numero_2
