@@ -3,7 +3,7 @@ from main import sum, es_mayor_que
 
 def test_sum():
     assert sum(2, 3) == 5
-    print("Test sum passed,")
+    print("Test passed,")
 
 def test_es_mayor_que():
     assert es_mayor_que(5, 3) == True
