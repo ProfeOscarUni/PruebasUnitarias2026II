@@ -13,7 +13,7 @@ def test_es_mayor_que():
 @pytest.mark.parametrize("input_x, input_y, expected", [
     (5, 3, 8),
     (-3, 5, 2),
-    (-4, sum(4,2), 3),
+    (-4, sum(4,2), 2),
 ])
 def test_sum_params(input_x, input_y, expected):
     assert sum(input_x, input_y) == expected
